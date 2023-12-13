@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Arial', sans-serif; */
+}
+  
+.LogoContainer img{
+height: 50px;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: #021E51;
+    margin-right: 2rem;
+}
+.ActiveHome{
+    border-bottom: #830000 3px solid;
+}
+.HeroSection{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.HeroSectionImg img{
+    height: 600px;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.HeroSectionText{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.HeroSectionText p{
+    text-align: center;
+}
+
+.Buttton button{
+    height: 48px;
+    width: 139px;
+    position: absolute;
+    border-radius: 8px;
+    background-color: #830000;
+    color: #FFFFFF;
+    top: 50%;
+    left: 45%;
+    border: none;
+
+}
+.WelcomeSecpat{
+    padding: 100px 120px;
+    padding-right: 70px;
+    display: flex;
+    gap: 1rem;
+}
+.Underline{
+    border: 3px solid #830000;
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+.Left h2{
+    font-size: 2rem;
+}
+.Left p{
+    font-size: 24px;
+    margin-right: 3rem;    
+}
+.Left{
+    flex: 1;
+    margin-top: 2rem;
+}
+.Right{
+    flex: 1;
+    background-color: #021E51;
+    width: 588px;
+    height: 495px;
+    position: relative;
+}
+.Right img{
+    width: 588px;
+    height: 495px;
+    position: absolute;
+    left: -50px;
+    top: 68px;
+
+}
+.CoreValue{
+    padding: 100px 120px;
+}
+.CardFrame{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.Card{
+    border: 1px solid #403F55;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    border-radius: 20px;
+    /* padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    width: 31.5%;
+    height: 200px;
+}
+.Card h3{
+color: #830000;
+}
+.Card p{
+    color: #403F55;
+    margin: 2rem;
+}
